@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <script src="./socket.io.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="content"></div>
+      <main>
+        <form id="form">
+          <div class="hinput">
+            <label for="message">Message</label>
+            <input name="message" id="message" />
+            <button class="send">Send Message</button>
+            <button id="clear">Clear Chat</button>
+          </div>
+
+          <div class="hinput">
+            <label for="message">Join Message</label>
+            <input name="room" id="room" />
+            <button id="room-button">Join Room</button>
+          </div>
+        </form>
+      </main>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
